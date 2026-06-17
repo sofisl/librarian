@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.22.0](https://github.com/googleapis/librarian/compare/v0.21.0...v0.22.0) (2026-06-17)
+
+
+### Features
+
+* **internal/librarian/nodejs:** add release level markdown generation ([#6476](https://github.com/googleapis/librarian/issues/6476)) ([1d1281f](https://github.com/googleapis/librarian/commit/1d1281f939b2b97df259c605fa70a7395626345e))
+* **internal/librarian/nodejs:** extract sample metadata for node readme ([#6454](https://github.com/googleapis/librarian/issues/6454)) ([00e5e0d](https://github.com/googleapis/librarian/commit/00e5e0d8d0ff8307a861a8f5e08f8b896a1b8c50)), closes [#6442](https://github.com/googleapis/librarian/issues/6442)
+* **postprocessing:** implement Java method deletion ([#6436](https://github.com/googleapis/librarian/issues/6436)) ([820646f](https://github.com/googleapis/librarian/commit/820646f3db936c15e4efb8a7998fdc20201d70a2)), closes [#6298](https://github.com/googleapis/librarian/issues/6298)
+* **sidekick/rust:** bigquery query metadata ([#6407](https://github.com/googleapis/librarian/issues/6407)) ([6989ebc](https://github.com/googleapis/librarian/commit/6989ebcebf4cd2a04c36db7fcd544e8c464105b1))
+* **sidekick/swift:** `bytes` for discovery docs ([#6433](https://github.com/googleapis/librarian/issues/6433)) ([d20f64c](https://github.com/googleapis/librarian/commit/d20f64c48ee852854344361eccaa60e5c76e9c58))
+* **sidekick:** parse method signatures ([#6451](https://github.com/googleapis/librarian/issues/6451)) ([7a433e7](https://github.com/googleapis/librarian/commit/7a433e71b701feda02bcf63e78624dcd08c5eb27))
+* **sidekick:** parse method signatures ([#6461](https://github.com/googleapis/librarian/issues/6461)) ([16aa2e6](https://github.com/googleapis/librarian/commit/16aa2e6b1d00b63374d8571a0ba3e613b3768b28))
+
+
+### Bug Fixes
+
+* **internal/librarian/nodejs:** path leak during generte_readme ([#6470](https://github.com/googleapis/librarian/issues/6470)) ([d3e7c16](https://github.com/googleapis/librarian/commit/d3e7c169c3e028720cd8d3c1369972bc376d2ede))
+* **internal/postprocessing:** support deleting multiple methods and extract boundary finder ([#6471](https://github.com/googleapis/librarian/issues/6471)) ([20442d8](https://github.com/googleapis/librarian/commit/20442d805274eec9e1ab3362ad4586f3afe0957c)), closes [#6298](https://github.com/googleapis/librarian/issues/6298)
+* **librarian:** print errors on failure ([#6458](https://github.com/googleapis/librarian/issues/6458)) ([37e4f91](https://github.com/googleapis/librarian/commit/37e4f915221045cba9e26f78c4e036d8d08076ed))
+* **surfer:** print errors on failure ([#6465](https://github.com/googleapis/librarian/issues/6465)) ([d91bf4c](https://github.com/googleapis/librarian/commit/d91bf4c4c6895fe7401cdea02fe0f2c64fb286d8))
+
 ## [0.21.0](https://github.com/googleapis/librarian/compare/v0.20.0...v0.21.0) (2026-06-16)
 
 
