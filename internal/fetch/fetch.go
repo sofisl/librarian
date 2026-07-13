@@ -105,6 +105,10 @@ type RepoRef struct {
 //  3. Download tarball, compute SHA256, verify it matches expectedSHA256 from
 //     librarian.yaml, extract, and return the path.
 func Repo(ctx context.Context, repo, commit, expectedSHA256 string) (string, error) {
+	if expectedSHA256 == "" {
+		return "", errMissingSHA256
+	}
+
 	cacheDir, err := cache.Directory()
 	if err != nil {
 		return "", err

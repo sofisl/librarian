@@ -73,6 +73,7 @@ func TestInstall(t *testing.T) {
 						Name:    "gapic-generator-typescript",
 						Version: "4.12.1",
 						Package: "https://github.com/googleapis/google-cloud-node/archive/gapic-generator-v4.12.1.tar.gz",
+						SHA256:  "dummy-sha256",
 						Build: []string{
 							"pnpm install",
 							"./node_modules/.bin/tsc",
